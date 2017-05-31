@@ -1,0 +1,153 @@
+
+/*------------------header---------------*/
+
+/*-----------------------banner---------------------*/
+section{
+    width:100%;
+    background:#f6f6f6;
+}
+#banner{
+    width:1201px;
+    height:384px;
+}
+#banner .banner-l{
+    width:210px;
+    background:#fff;
+}
+#banner .banner-l .choose{
+    width:190px;
+    margin:0 auto;
+}
+#banner .banner-l li{
+    width:170px;
+    height:54px;
+    padding-left:21px;
+    border-bottom:1px dashed #666666;
+}
+ #banner .banner-l .choose .te{
+    border-bottom:0;
+ }                                                
+#banner .banner-l li a{
+    font:14px/55px "";
+    background:url(../img/qun.png) no-repeat;
+    padding-left:32px;
+}
+#banner .banner-l li span{
+    padding:0 17px;
+}
+
+.ck-slide ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.ck-slide {
+    position: relative;
+    top:23px;
+    left:20px;
+    overflow: hidden;
+}
+
+.ck-slide ul.ck-slide-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.ck-slide ul.ck-slide-wrapper li {
+    position: absolute;
+}
+
+.ck-slide .ck-prev,
+.ck-slide .ck-next {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    width: 25px;
+    height: 50px;
+    margin-top: -35px;
+    font:25px/50px "";
+    text-align:center; 
+    color:#fff;
+    border-radius: 3px;
+    opacity: .1;
+    background: rgba(0, 0, 0, .2);
+    background-repeat: no-repeat;
+    transition: opacity .2s linear 0s;
+}
+
+.ck-slide .ck-prev {
+    left: 5px;
+}
+
+.ck-slide .ck-next {
+    right: 5px;
+}
+
+.ck-slidebox {
+    position: absolute;
+    left: 50%;
+    bottom: 12px;
+    z-index: 30;
+}
+
+.ck-slidebox ul {
+    height: 20px;
+    padding: 0 4px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, .5);
+}
+
+.ck-slidebox ul li {
+    float: left;
+    height: 12px;
+    margin: 4px 4px;
+}
+ 
+.ck-slidebox ul li em {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: #fff;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+
+.ck-slidebox ul li.current em {
+    background-color: #fe6500;
+}
+
+.ck-slidebox ul li em:hover {
+    background-color: #fe6500;
+}
+.mianc{
+    width: 702px;
+     height: 362px;
+}
+.ck-slide { 
+    width: 702px; 
+    height: 362px;
+    }
+.ck-slide ul.ck-slide-wrapper { height:362px;}
+.banner-r{
+    margin-top:23px;
+    width:251px;
+    height:364px;
+}
+.banner-r ul{
+    width:251px;
+    height:362px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.banner-r ul li:hover{
+    opacity:.8;
+    transition:.5s; 
+}
+

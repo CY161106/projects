@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>	
+	<link rel="stylesheet" href="css/public.css" />
+	<link rel="stylesheet" href="css/index.css" />
+	</head>
+	<body>
+	<div id="header">
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+		<script>
+			$("#header").load("header.html");
+		</script>
+	</div>
+	<section>
+		<div id="banner" class="wrapper clear">
+			<div class="banner-l left">
+				<div class="choose">
+					<ul>
+						<li><a href="#">女装</a><span>|</span><a href="#">男装</a></li>
+						<li><a href="#">鞋子</a><span>|</span><a href="#">箱包</a></li>
+						<li><a href="#">母婴</a><span>|</span><a href="#">美妆</a></li>
+						<li><a href="#">居家</a><span>|</span><a href="#">家纺</a></li>
+						<li><a href="#">文体</a><span>|</span><a href="#">美食</a></li>
+						<li><a href="#">数码</a><span>|</span><a href="#">电器</a></li>
+						<li class="te"><a href="#">内衣</a><span>|</span><a href="#">配饰</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="mianc left">
+					
+					<!-- html -->
+					<div class="ck-slide">
+						<ul class="ck-slide-wrapper">
+							<li>
+								<img src=" img/1.png" alt=""></a>
+							</li>
+							<li style="display:none">
+								<img src=" img/2.png" alt=""></a>
+							</li>
+							<li style="display:none">
+								<img src=" img/3.png" alt=""></a>
+							</li>
+							<li style="display:none">
+								<img src=" img/1.png" alt=""></a>
+							</li>
+							<li style="display:none">
+								<img src=" img/2.png" alt=""></a>
+							</li>
+						</ul>
+						<a class="ctrl-slide ck-prev" href="#">&lt;</a>
+						<a class="ctrl-slide ck-next" href="#">&gt;</a>
+						<div class="ck-slidebox">
+							<div class="slideWrap">
+								<ul class="dot-wrap">
+									<li class="current">
+									<em>1</em></li>
+									<li><em>2</em></li>
+									<li><em>3</em></li>
+									<li><em>4</em></li>
+									<li><em>5</em></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<!-- js -->
+					<script src="js/jquery-1.8.3.min.js"></script>
+					<script src="js/slide.js"></script>
+					<script>
+						$('.ck-slide').ckSlide({
+							autoPlay: true
+						});
+					</script>
+			</div>
+			<div class="banner-r right">
+				<ul>
+					<li><img src="img/hong.jpg"></li>
+					<li><img src="img/qiao.jpg"</li>
+					<li><img src="img/qingfeng.jpg"</li>
+					<li><img src="img/hong.jpg"</li>
+					<li><img src="img/baoyou.jpg"</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div id="brand">
+			<div class="today">
+				<i class="brand_new"></i>
+				今日品牌
+			</div>
+		</div>
+	</section>
+	<div id="footer">
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+		<script>
+			$("#footer").load("footer.html");
+		</script>
+	</div>
+	</body>
+</html>

@@ -1,0 +1,115 @@
+header {
+  width: 100%;
+  height: 100%; }
+
+.wrapper {
+  width: 1201px; }
+
+#h-top {
+  height: 30px;
+  background: #f6f6f6; }
+
+#h-top ul li {
+  float: left; }
+
+#h-top ul li a, span {
+  font: 12px/30px ""; }
+
+#h-top ul li span {
+  padding: 0 15px 17px; }
+
+#h-top ul .te1 {
+  padding: 0 16px; }
+
+#h-top ul .te2 a {
+  color: #ff464e; }
+
+#h-top ul .te4 {
+  padding: 0 26px 11px; }
+
+#h-top ul li em {
+  padding-right: 11px; }
+
+#h-top ul li b {
+  font-size: 12px;
+  padding-left: 6px; }
+
+#h-mid {
+  height: 85px; }
+
+#h-mid .logo {
+  width: 199px;
+  height: 45px;
+  margin-top: 20px; }
+
+#h-mid .h-mid-m {
+  width: 432px;
+  height: 32px;
+  margin: 28px 0 0 246px; }
+
+#h-mid .h-mid-m li {
+  float: left; }
+
+#h-mid .h-mid-m li span {
+  padding-right: 9px; }
+
+#h-mid .h-mid-m .shu {
+  padding: 0 20px; }
+
+#h-mid .h-mid-b {
+  margin: 28px 0 0; }
+
+#h-mid .h-mid-b .tet {
+  background: #efefef;
+  border: 0;
+  width: 200px;
+  height: 30px;
+  float: left; }
+
+#h-mid .h-mid-b .btn {
+  border: 0;
+  width: 40px;
+  height: 30px;
+  background: url(../img/sou.png) no-repeat; }
+
+#h-bottom {
+  margin-top: 23px;
+  height: 39px;
+  border-bottom: 2px solid #FF464E; }
+
+#h-bottom .clear {
+  position: relative; }
+
+#h-bottom ul li {
+  float: left;
+  width: 106px;
+  height: 39px;
+  text-align: center;
+  border-radius: 5px 5px 0 0; }
+
+#h-bottom ul li b {
+  padding-right: 5px; }
+
+#h-bottom ul li a {
+  font: 14px/41px ""; }
+
+#h-bottom li:hover {
+  background: #FF464E; }
+
+#h-bottom li:hover a {
+  color: #fff; }
+
+#h-bottom ul .te {
+  width: 210px; }
+
+#h-bottom .hot {
+  margin-left: 49px; }
+
+#h-bottom span {
+  position: absolute;
+  right: 16px; }
+
+#h-bottom span img {
+  padding-right: 3px; }
+
+/*# sourceMappingURL=header.css.map */

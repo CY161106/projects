@@ -1,0 +1,49 @@
+footer {
+  width: 100%;
+  background: #F6F6F6;
+  height: 307px;
+  padding: 28px 0 20px;
+  border-top: 5px solid #ff464e; }
+  footer #serve {
+    width: 1201px; }
+    footer #serve .QR_code {
+      padding-top: 10px; }
+    footer #serve .serve_kids .left {
+      margin-left: 125px; }
+      footer #serve .serve_kids .left li {
+        font: 12px/24px ""; }
+      footer #serve .serve_kids .left h2 {
+        font: 15px/36px "";
+        font-weight: 700; }
+    footer #serve .serve_kids .service_tel {
+      padding: 30px 0 0 155px; }
+    footer #serve .friendly_link {
+      width: 1201px;
+      border-bottom: 1px dashed #cccccc;
+      margin-top: 13px; }
+      footer #serve .friendly_link a {
+        font: 12px/40px "";
+        padding-right: 14px; }
+    footer #serve .address {
+      width: 850px;
+      margin: 0 auto;
+      margin-top: 20px; }
+      footer #serve .address li {
+        float: left;
+        margin: 0 2px; }
+        footer #serve .address li a, footer #serve .address li span {
+          font: 12px/20px "";
+          color: #c6c6c6; }
+    footer #serve .Copyright {
+      width: 330px;
+      margin: 0 auto;
+      font: 12px/20px "";
+      color: #c6c6c6; }
+    footer #serve .brand {
+      width: 600px;
+      margin: 0 auto;
+      margin-top: 12px; }
+      footer #serve .brand a {
+        margin: 0 17px; }
+
+/*# sourceMappingURL=footer.css.map */

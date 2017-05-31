@@ -1,0 +1,65 @@
+
+footer{
+    width:100%;
+    background:#F6F6F6;
+    height:307px;
+    padding:28px 0 20px;
+    border-top:5px solid #ff464e;
+        #serve{
+            width:1201px;
+            .QR_code{
+                padding-top:10px;
+            }
+            .serve_kids {
+                .left{
+                        margin-left:125px;
+                    li{
+                        font:12px/24px "";
+                    }
+                    h2{
+                        font:15px/36px "";
+                        font-weight:700;
+                    }  
+                }
+                .service_tel{
+                            padding:30px 0 0 155px; 
+                             }
+            }
+           .friendly_link{
+                width:1201px;
+                border-bottom:1px dashed #cccccc;   
+                margin-top:13px;            
+               a{
+                   font:12px/40px "";
+                   padding-right:14px;
+                }
+            }
+            .address{
+                width:850px;
+                margin:0 auto;
+                margin-top:20px;
+                li{
+                    float:left;
+                    margin:0 2px;
+                    a,span{
+                       font:12px/20px "";
+                       color:#c6c6c6; 
+                    }
+                }
+            }
+            .Copyright{
+                width:330px;
+                margin:0 auto;
+                font:12px/20px "";
+                color:#c6c6c6; 
+            }
+            .brand{
+                width:600px;
+                margin:0 auto;
+                margin-top:12px;
+                a{
+                    margin:0 17px;
+                }
+            }
+        } 
+}
