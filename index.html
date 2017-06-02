@@ -5,14 +5,51 @@
 		<title></title>	
 	<link rel="stylesheet" href="css/public.css" />
 	<link rel="stylesheet" href="css/index.css" />
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+	<script type="text/javascript" src="js/css.js" ></script>	
 	</head>
 	<body>
 	<div id="header">
-		<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
 		<script>
 			$("#header").load("header.html");
 		</script>
 	</div>
+	<search>
+		<div id="s-mid">
+			<div class="wrapper clear">
+				<div class="logo left">
+					<a href="#"><img src="img/logo.png"/></a>
+				</div>
+				<div class="s-mid-m left">
+					<ul>
+						<li><span><img src="img/b1.png"/></span>10:00开抢</li>
+						<li class="shu"><img src="img/shu.png"/></li>
+						<li><span><img src="img/b2.png"/></span>买手砍价</li>
+						<li class="shu"><img src="img/shu.png"/></li>
+						<li><span><img src="img/b3.png"/></span>验货质检</li>
+					</ul>
+				</div>
+				<div class="s-mid-b right">
+					<input class="tet" type="text" placeholder="请输入想找的宝贝"/>
+					<input class="btn" type="button"/>
+				</div>				
+			</div>
+		</div>
+		<div id="s-bottom">
+			<div class="wrapper clear">
+				<ul>
+					<li class="te"><a href="#">最新折扣</a></li>
+					<li><a href="#">品牌折扣</a></li>
+					<li><a href="#">特卖精选</a></li>
+					<li><a href="#">9.9包邮</a></li>
+					<li><a href="#">即将上线</a></li>
+					<li><b><img src="img/p.png"/></b><a href="#">手机版</a></li>
+				</ul>
+				<a class="hot" href="#"><img src="img/s.png"/></a>
+				<span><img src="img/q.png"/><a href="#">签到领积分</a></span>
+			</div>
+		</div>
+	</search>
 	<section>
 		<div id="banner" class="wrapper clear">
 			<div class="banner-l left">
@@ -86,15 +123,126 @@
 		</div>
 	</section>
 	<section>
-		<div id="brand">
-			<div class="today">
-				<i class="brand_new"></i>
+		<div class="brand wrapper clear">
+			<div class="today left">
+				<i class="brand_new"><img src="img/brand.png"/></i>
 				今日品牌
+			</div>
+			<div class="brand_kids right">
+				<ul>
+					<li><a href="#"><span>品牌女装</span></a></li>
+					<li><a href="#"><span>品牌母婴</span></a></li>
+					<li><a href="#"><span>品质居家</span></a></li>
+					<li><a href="#"><span>全部品牌</span></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="brand_list wrapper">
+			<div class='discount'>
+				<ul>
+					<li>
+						<a href="#">
+							<img src="img/brand02.jpg"/>
+							<div class='sales'>
+								<span>2.4折起</span>
+								<span class="active">进入活动</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/brand02.jpg"/>
+							<div class='sales'>	
+								<span>1.7折起</span>
+								<span class="active">进入活动</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/brand03.jpg"/>
+							<div class='sales'>
+								<span>1折起</span>
+								<span class="active">进入活动</span>	
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="special_offer">
+				<ul class='left'>
+					<li><a href="#">更多品牌特卖：</a></li>
+					<li><a href="#"><img src="img/572c556b24b5e27b578b45ca_180x90.png"></a></li>
+					<li><a href="#"><img src="img/578d99df151ad115578b459a_180x90.png"></a></li>
+					<li><a href="#"><img src="img/57070e7192be59c5188b4577_180x90.png"></a></li>
+					<li><a href="#"><img src="img/56ea18eb92be59cc068b456a_180x90.png"></a></li>
+					<li><a href="#"><img src="img/578d99df151ad115578b459a_180x90.png"></a></li>			
+				</ul>
+				<a href="#" class="right"><span>查看全部</span><span>&gt;&gt;</span></a>
+			</div>
+		</div>
+		<div class="today_new wrapper">
+			<div class="new_title">
+				<i class="brand_new"><img src="img/brand.png"/></i>
+				<a href="#"><b>今日品牌</b><span>每天10点上新</span></a>
+			</div>
+			<div class="marginal_data"><!--图例说明-->
+				<ul>
+					<li>
+						<a href="#">
+							<div class="data">
+								<img src="img/58b7dda5151ad165278b45c2_800x800.jpg">
+							</div>
+							<div>
+								<p><b>[包邮]</b><a href="#">绣花款情趣睡衣两件套</a><span>上新</span></p>
+								<p><span>￥</span><span>32.9</span><span>￥199</span><a href='#'>品牌</a></p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="data" >
+								<img src="img/591bcb2fa43d1f4ef21ffdcb_800x800.jpg">
+							</div>
+							<div>
+								<p><b>[包邮]</b><a href="#">绣花款情趣睡衣两件套</a><span>上新</span></p>
+								<p><span>￥</span><span>32.9</span><span>￥199</span><a href='#'>品牌</a></p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="data" >
+								<img src="img/57454057151ad162408b4567_800x800.jpg">
+							</div>
+							<div>
+								<p><b>[包邮]</b><a href="#">绣花款情趣睡衣两件套</a><span>上新</span></p>
+								<p><span>￥</span><span>32.9</span><span>￥199</span><a href='#'>品牌</a></p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="data">
+								<img src="img/58502b19151ad1483a8b457c_800x800.jpg">
+							</div>
+							<div>
+								<p><b>[包邮]</b><a href="#">绣花款情趣睡衣两件套</a><span>上新</span></p>
+								<p><span>￥</span><span>32.9</span><span>￥199</span><a href='#'>品牌</a></p>
+							</div>
+						</a>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</section>
+	<article>
+		<button class="btn1"><a href="#">1</a></button>
+		<button class="btn1"><a href="#">2</a></button>
+		<button class="btn1"><a href="#">3</a></button>
+		<div class="play"></div>
+	</article>
 	<div id="footer">
-		<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
 		<script>
 			$("#footer").load("footer.html");
 		</script>
