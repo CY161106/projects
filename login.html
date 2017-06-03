@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="css/login.css" />
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+		<script type="text/javascript" src="login.js" ></script>
+	</head>
+	<body>
+			<header>
+			<div id="s-mid" class="wrapper">
+				<div class="wrapper clear">
+					<div class="logo left">
+						<a href="#"><img src="img/logo.png" /></a>
+					</div>
+					<div class="s-mid-m left">
+						<ul>
+							<li><span><img src="img/b1.png"/></span>10:00开抢</li>
+							<li class="shu"><img src="img/shu.png" /></li>
+							<li><span><img src="img/b2.png"/></span>买手砍价</li>
+							<li class="shu"><img src="img/shu.png" /></li>
+							<li><span><img src="img/b3.png"/></span>验货质检</li>
+						</ul>
+					</div>
+					<div class="s-mid-b right">
+						<input class="tet" type="text" placeholder="请输入想找的宝贝" />
+						<input class="btn" type="button" />
+					</div>
+				</div>
+			</div>
+		</header>
+		<section>
+			<div class="logon wrapper">
+				<div class="hint clear">
+					<div class="welcome left">
+						<a href="#">新用户注册</a><i>/</i><span>注册卷皮网，赢积分换好礼！</span>
+					</div>
+					<div class="login right">
+						<span>已有账号，</span><a href="#">立即登录</a>
+					</div>
+				</div>
+				<div class="user clear">
+					<div class="user_logon left">
+						<form action="userSave.php" method="post">
+							手机号码：<input type="text" id="phoneId" name="userName" class=""/><span id="user"></span><br/><br/>
+							创建密码：<input type="password" id="passId" name = "userPass"  /><br/><br/>
+							确认密码：<input type="password"  /><span></span><br/><br/>
+							<input type="submit" value="立即注册"/><br/><br/>
+							<input type="checkbox"><span>我已阅读并接受《卷皮用户协议》</span> <br/><br/>
+						</form>
+						<div>
+							<div>
+								<p>合作网站账号登录</p>
+								<i></i>
+							</div>
+							<a href="#">手机快捷登录</a>
+						</div>
+					</div>
+					<div class="vip_tu right">
+						<img src="img/vip.png" />
+					</div>
+				</div>
+			</div>
+			
+		</section>
+		<footer>
+			<div class="foot wrapper">
+				<div class="address	 clear">
+					<ul>
+						<li><a href="#">武汉奇米网络科技有限公司</a></li>
+						<li><a href="#">鄂ICP备10209250号</a></li>
+						<li><span>|</span></li>
+						<li><a href="#">ICP许可证号：鄂B1-20150109</a></li>
+						<li><span>|</span></li>
+						<li><a href="#">鄂公网安备42018502000390号</a></li>
+						<li><span>|</span></li>
+						<li><a href="#">食品流通许可证 SP4201991510041888</a></li>
+					</ul>
+				</div>
+				<div class="Copyright">
+					Copyright © 2010 -2017 JuanPi.com All Rights Reserved
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

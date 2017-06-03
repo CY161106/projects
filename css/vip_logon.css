@@ -1,0 +1,103 @@
+header {
+  width: 100%;
+  border-bottom: 4px solid #ff464e; }
+
+#s-mid {
+  width: 1201px;
+  height: 85px; }
+
+#s-mid .logo {
+  width: 199px;
+  height: 45px;
+  margin-top: 20px; }
+
+#s-mid .s-mid-m {
+  width: 432px;
+  height: 32px;
+  margin: 28px 0 0 246px; }
+
+#s-mid .s-mid-m li {
+  float: left; }
+
+#s-mid .s-mid-m li span {
+  padding-right: 9px; }
+
+#s-mid .s-mid-m .shu {
+  padding: 0 20px; }
+
+#s-mid .s-mid-b {
+  width: 235px;
+  height: 30px;
+  margin: 28px 0 0; }
+
+#s-mid .s-mid-b .tet {
+  background: #efefef;
+  outline-style: none;
+  border: none;
+  width: 200px;
+  height: 30px;
+  float: left; }
+
+#s-mid .s-mid-b .btn {
+  border: 0;
+  outline-style: none;
+  width: 35px;
+  height: 30px;
+  float: left;
+  background: url(../img/sou.png) no-repeat; }
+
+section {
+  padding-top: 20px;
+  background: #f6f6f6; }
+  section .logon {
+    height: 477px;
+    background: #fff;
+    width: 979px;
+    border: 1px solid #E2E2E2; }
+    section .logon .hint {
+      border-bottom: 1px solid #e2e2e2; }
+      section .logon .hint .welcome a {
+        font: 15px/64px "";
+        color: #FF0000;
+        margin-left: 21px; }
+      section .logon .hint .welcome i {
+        font: 15px/64px "";
+        color: #e7e7e7;
+        padding: 0 2px; }
+      section .logon .hint .welcome span {
+        font: 12px/64px "";
+        color: #666; }
+      section .logon .hint .login span {
+        font: 13px/64px "";
+        color: #999;
+        margin-right: 13px; }
+      section .logon .hint .login a {
+        font: 13px/64px "";
+        color: #0289cd;
+        margin-right: 50px; }
+    section .logon .user {
+      margin: 30px 0 0 160px; }
+      section .logon .user .vip_tu {
+        margin: 5px 80px 0 0; }
+
+footer {
+  background: #f6f6f6; }
+  footer .foot {
+    padding-top: 42px;
+    width: 980px; }
+    footer .foot .address {
+      width: 850px;
+      margin: 0 auto; }
+      footer .foot .address li {
+        float: left;
+        margin: 0 2px; }
+        footer .foot .address li a, footer .foot .address li span {
+          font: 12px/20px "";
+          color: #666; }
+    footer .foot .Copyright {
+      width: 330px;
+      margin-top: 45px;
+      font: 12px/20px "";
+      color: #666; }
+
+/*# sourceMappingURL=vip_logon.css.map */
